@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Table Booking Form </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+
+<h1>Book Your Table </h1>
+
+<label for="text">Name     </label>
+<input type="text" id= "name" placeholder="Enter Name ">
+
+<div class="error-msg">You Must Enter Your Name</div>
+
+<br>
+
+<label for="text">Contact</label>
+<input type="text" placeholder="Enter Contact Number  ">
+
+<br>
+
+<label for="text">Date  </label>
+<input type="date">
+
+<br>
+
+<label for="text">Time</label>
+<input type="time">
+
+<br>
+
+<label for="text">Number of Guest</label>
+<select name="" id="guest">
+    <option value="" id="guest" disabled selected>Select...
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+
+</option>
+</select>
+<br>
+
+<button type="button" id="btn" onclick="validate()">Submit</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
